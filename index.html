@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingenialab</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: #007bff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x400/007bff/ffffff') no-repeat center center/cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .hero a {
+            background-color: #ffffff;
+            color: #007bff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 0.25rem;
+            font-weight: bold;
+        }
+        .hero a:hover {
+            background-color: #e1e1e1;
+        }
+        .section {
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .services {
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service {
+            flex: 1 1 200px;
+            margin: 1rem;
+            padding: 1.5rem;
+            border: 2px solid #007bff;
+            border-radius: 0.5rem;
+            text-align: left;
+        }
+        .service h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .service p {
+            font-size: 1rem;
+        }
+        .footer {
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Ingenialab</div>
+    </header>
+    <nav>
+        <a href="#about">Acerca de</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section class="hero" id="about">
+        <h1>Ingenialab: Innovación en Tecnología</h1>
+        <p>Transformamos ideas en realidades a través de la tecnología más avanzada.</p>
+        <a href="#services">Ver Servicios</a>
+    </section>
+    <section class="section" id="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Desarrollo de Software</h3>
+                <p>Creamos soluciones personalizadas para mejorar la eficiencia de tu negocio.</p>
+            </div>
+            <div class="service">
+                <h3>Consultoría Tecnológica</h3>
+                <p>Te asesoramos en la implementación de tecnologías emergentes para aumentar tu competitividad.</p>
+            </div>
+            <div class="service">
+                <h3>Formación y Capacitación</h3>
+                <p>Capacitamos a tu equipo para que puedan aprovechar al máximo las herramientas tecnológicas.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <h2>Contacto</h2>
+        <p>¡Estamos aquí para ayudarte! No dudes en ponerte en contacto con nosotros.</p>
+        <p>Email: info@ingenialab.com</p>
+        <p>Teléfono: +56 1234 5678</p>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 Ingenialab. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
